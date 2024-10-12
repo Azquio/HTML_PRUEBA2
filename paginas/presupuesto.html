@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Presupuesto</title>
+        <link rel="stylesheet" href="../css/PresupuestoStyle.css">
+        <link rel="shortcut icon" href="../imagenes/ordenador-dibujo.png">
+    </head>
+<div class="fondo">
+    <header class="cabecera">
+       <div id="cab">
+        <img src="../imagenes/ordenador-dibujo.png" alt="ordenador">
+        <h1>Informática Paco</h1>
+        <h3>Empresa lider en venta de productos informáticos</h3>
+
+       </div> 
+    </header>
+
+    <div class="separación"></div>
+</div>
+<div class="fondo2">
+    <nav>
+        <ul>
+            <li><a href="../Index.html">Inicio</a></li>
+            <li>Productos
+                <ul>
+                    <li><a href="Ordenadores.html">Ordenadores</a></li>
+                    <li><a href="Monitores.html">Monitores</a></li>
+                    <li ><a href="Perifericos.html" >Periféricos</a></li>
+                </ul>
+            </li>
+            <li><a href="Productos.html" >Todos nuestros productos</a></li>
+            <li><a href="contactos.html" >Información de la empresa</a></li>
+            <li><a href="presupuesto.html" id="lugarAct" >Presupuesto</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="fondo">
+<div class="separación"></div>
+<br><br>
+<br><br>
+
+<div id="inf"><p id="p"><b>Por favor, rellene la siguiente información.<br>
+    <br>
+    </b>
+</p>
+</div>
+
+<br><br><br><br>
+<form>
+    <b>Nombre:</b> <input type="text" name="texto" id="texto" value="" required>
+    <br><br>
+    <b>Correo electrónico: </b><input type="email" name="email" id="email" value="" required>
+    <br><br>
+    <b>Teléfono:</b> <input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}" required>
+    <br><br>
+    <div>
+        <b>Su opinión sobre la empresa. Si le/la ha satisfecho o si deberiamos cambiar o añadir algo: </b>
+    </div>
+    <textarea name="InformacionExtra" id="InformacionExtra" cols="80" rows="6"></textarea>
+    <br><br>
+    <a href="PolíticasDePrivacidad.odt" id="color"><b>Políticasde privacidad de la empresa:</b></a><input type="checkbox" required name="PoliticaPrivacidad" value="" >
+    <br><br>
+    <input type="submit" name="boton" value="Registrar información">
+    <input type="reset" name="boton" value="Reiniciar las casillas" >
+</form>
+<br><br><br><br>
+<div class="separación"></div>
+</div>
+<footer class="fondo">
+    <b id="textoFT">Visita nuestras redes sociales para poder saber más sobre nosotros y los futuros productos que podamos añadir</b><br><br>
+    <div class="conteiner">
+        
+        <a href="https://www.instagram.com/pccomponentes/?hl=es"><img class="img33" src="../imagenes/LogoINS.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/pccomponentes/?locale=es_ES"><img class="img33" src="../imagenes/logoFB.png" alt="facebook"></a>
+        <a href="https://x.com/pccomponentes"> <img class="img33" src="../imagenes/logoTW.png" alt="twitter"></a>
+
+        <p id="dicFooter"><b>Encuentranos en:</b><a href="https://maps.app.goo.gl/uuY1YFzeSgrWUen3A"> C de Campoamor, 112, Algirós, 46022 València, Valencia</a></p>
+        <br><br>
+        <p id="avisoL"><a href="avisoLegal.doc">Aviso legal</a></p>
+    </div>
+    
+</footer>
+</html>
