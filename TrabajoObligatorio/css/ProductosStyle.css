@@ -1,0 +1,99 @@
+
+.fondo{
+    background-image:linear-gradient(to right,#425EEB , #42A4EB, #42DAEB);
+}
+.fondo2{
+    background-image:linear-gradient(to right,#42EB6B , #69EB42, #B7EB42);
+
+}
+/*CABEZERA*/
+#cab{
+    
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.cabecera img{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.cabecera h1{
+    text-align: center;
+    color: white;
+}
+.cabecera h3{
+    text-align: center;
+    color: white;
+}
+
+.separación{
+    border: 3px solid #000000
+}
+#lugarAct{
+    color: red;
+}
+
+/*contenido*/
+
+#p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px
+}
+
+.fondoPr{
+    text-align: center;
+    background-color: #808080;
+}
+.nombrePr{
+    color: white;
+}
+.CProducto{
+    width: 530px;
+    border: 1px solid black;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+
+.conteiner{
+    display: flex;
+    padding: 5px;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+}
+
+.img33 {
+    width: 50px;
+    margin-right: 50px;
+}
+#textoFT{
+    font-size: 25px;
+}
+
+/**/
+
+#dicFooter{
+    font-size: 20px;
+}
+#avisoL{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+}
