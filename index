@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../TrabajoObligatorio/css/IndexStyle.css">
+        <title>Inicio</title>
+        <link rel="shortcut icon" href="../TrabajoObligatorio/imagenes/ordenador-dibujo.png">
+    </head>
+<div class="fondo">
+    <header class="cabecera">
+       <div id="cab">
+        <img src="../TrabajoObligatorio/imagenes/ordenador-dibujo.png" alt="IconoOrdenador">
+        <h1>Informática Paco</h1>
+        <h3>Empresa lider en venta de productos informáticos</h3>
+       </div> 
+    </header>
+
+    <div class="separación"></div>
+</div>
+<div class="fondo2">
+    <nav>
+        <ul>
+            <li><a href="../TrabajoObligatorio/Index.html" id="lugarAct">Inicio</a></li>
+            <li>Productos
+                <ul>
+                    <li><a href="../TrabajoObligatorio/paginas/Ordenadores.html">Ordenadores</a></li>
+                    <li><a href="../TrabajoObligatorio/paginas/Monitores.html">Monitores</a></li>
+                    <li><a href="../TrabajoObligatorio/paginas/Perifericos.html">Periféricos</a></li>
+                </ul>
+            </li>
+            <li><a href="../TrabajoObligatorio/paginas/Productos.html">Todos nuestros productos</a></li>
+            <li><a href="../TrabajoObligatorio/paginas/contactos.html">Información de la empresa</a></li>
+            <li><a href="../TrabajoObligatorio/paginas/presupuesto.html"  >Presupuesto</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="separación"></div>
+<div class="fondo">
+<br><br><br>
+<h3 class="titulo"> <u>OFERTAS</u> </h3>
+<div class="contenedor">
+    <img class="imagen" src="../TrabajoObligatorio/imagenes/OrdGAlt.png" alt="ordenador" >
+    <div>
+        <h2 class="Eh2"><a class="Eh2" href="../TrabajoObligatorio/paginas/Ordenadores.html">PcCom READY GO</a></h2>
+            <div id="contenido">
+                <blockquote><b>35%</b> de descuento</blockquote>
+                <blockquote>Precio anterior : <b><del>1169€</del></b></blockquote> 
+                <blockquote>Precio actual: <b>760€</b></blockquote> 
+            </div>  
+    </div>
+</div>
+<br><br><br>
+<h3 class="titulo"> <u>Recien llegados</u> </h3>
+<div class="contenedor">
+    <img class="imagen" src="../TrabajoObligatorio/imagenes/Webcam.png" alt="webcam" >
+    <div>
+        <h2 class="Eh2"><a class="Eh2" href="../TrabajoObligatorio/paginas/Perifericos.html">Ozone LiveX50</a></h2>
+        
+    </div>
+    
+</div>
+<br><br>
+<div class="contenedor">
+    <img class="imagen" src="../TrabajoObligatorio/imagenes/Teclado.png" alt="teclado" >
+    <div>
+        <h2 class="Eh2"><a class="Eh2" href="../TrabajoObligatorio/paginas/Perifericos.html">Steelseries Apex Pro Mini Teclado</a></h2>
+        
+    </div>
+</div>
+<br><br><br>
+<h3 class="titulo"> <u>Productos más vendidos</u> </h3>
+<div class="contenedor">
+    <img class="imagen" src="../TrabajoObligatorio/imagenes/MonitorGAlt.png" alt="monitor" >
+    <div>
+        <h2 class="Eh2"><a class="Eh2" href="../TrabajoObligatorio/paginas/Monitores.html">ASUS ROG Swift OLED PG32UCDM</a></h2>
+        
+    </div>
+    
+</div>
+<br><br><br>
+</div>
+<div class="separación"></div>
+<footer class="fondo">
+    <b id="textoFT">Visita nuestras redes sociales para poder saber más sobre nosotros y los futuros productos que podamos añadir</b><br><br>
+    <div class="conteiner">
+        
+        <a href="https://www.instagram.com/pccomponentes/?hl=es"><img class="img33" src="../TrabajoObligatorio/imagenes/LogoINS.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/pccomponentes/?locale=es_ES"><img class="img33" src="../TrabajoObligatorio/imagenes/logoFB.png" alt="facebook"></a>
+        <a href="https://x.com/pccomponentes"> <img class="img33" src="../TrabajoObligatorio/imagenes/logoTW.png" alt="twitter"></a>
+
+        <p id="dicFooter"><b>Encuentranos en:</b><a href="https://maps.app.goo.gl/uuY1YFzeSgrWUen3A"> C de Campoamor, 112, Algirós, 46022 València, Valencia</a></p>
+        <br><br>
+        <p id="avisoL"><a href="avisoLegal.doc">Aviso legal</a></p>
+    </div>
+</footer>
+</html>
